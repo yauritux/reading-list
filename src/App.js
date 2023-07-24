@@ -7,8 +7,17 @@ function App() {
   const { fetchBooks } = useBooksContext();
 
   useEffect(() => {
+    const appVersionListener = () => {
+      alert('App version: v1.0');      
+    };
     fetchBooks();
-  }, []);
+
+    document.body.addEventListener('click', appVersionListener);
+
+    return () => {
+      document.body.removeEventListener('click', appVersionListener);
+    };
+  }, [fetchBooks]);
 
   return (
     <div className="app">
