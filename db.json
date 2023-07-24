@@ -1,0 +1,32 @@
+{
+  "books": [
+    {
+      "title": "New Era of Industry",
+      "id": 1
+    },
+    {
+      "title": "Working from Home",
+      "id": 2
+    },
+    {
+      "title": "Shaolin Hidden Arts",
+      "id": 3
+    },
+    {
+      "title": "Strawberry Girls",
+      "id": 4
+    },
+    {
+      "title": "Deep in the Ocean",
+      "id": 5
+    },
+    {
+      "title": "Cook like a Pro",
+      "id": 6
+    },
+    {
+      "title": "Ancient Fighting Techniques",
+      "id": 7
+    }
+  ]
+}
